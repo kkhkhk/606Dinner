@@ -5,9 +5,15 @@ import LoginModal from "./components/LoginModal";
 import SignupModal from "./components/SignupModal"; // 새로 만드셔야 함
 import styles from "./App.module.css";
 import FindPWModal from "./components/FindPWModal";
+import TestPing from "./components/TestPing";
 
 function Home() {
-  return null; // 초기 홈은 비워두기
+  return (
+    <div>
+      <h2>홈 화면</h2>
+      <TestPing />   {/* Ping 테스트 버튼 컴포넌트 */}
+    </div>
+  );
 }
 
 function Story() {
